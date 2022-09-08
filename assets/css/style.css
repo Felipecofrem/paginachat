@@ -1,0 +1,114 @@
+.flex-container {
+background-color: gainsboro;
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+}
+
+.flex-child {
+background-color:white;
+text-align: center;
+border: solid 1px black;
+margin: 1px;
+padding: 1px;
+}
+
+.flex-container2 {
+    background-color: gainsboro;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+.flex-child2 {
+    text-align: center;
+    border: solid 1px black;
+    /*height: 100%; */   
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.centro {
+    border:0px;
+    width: 400px;
+}
+.shake {
+    background-color: rgb(13, 110, 253);
+}
+
+.flex-main {
+display: flex;
+}
+
+.cont-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.flex-user {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+
+}
+.cont-icos {
+
+    display: flex;
+    align-items: center;
+}
+.child-ico {
+    display: flex;
+
+}
+
+.cont-user2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.flex-user2 {
+    display: flex;
+    justify-content:flex-start;
+    margin: 1px;
+    background-color:white;
+
+}
+
+
+.cont-online {
+    display: flex;
+}
+
+.avatar {
+    width: 50px;
+    margin: 15px;
+}
+.shake {
+    width: 200px;
+    padding: 1rem;
+}
+
+.fas {
+    margin: 4px;
+}
+.btn {
+    margin: 1rem;
+}
+
+.boton {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
